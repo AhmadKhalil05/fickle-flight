@@ -78,10 +78,8 @@
 
 @media (max-width: 768px) {
   .navLinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    display: none;
+    
   }
 
   .navLinks a {
