@@ -118,26 +118,20 @@
 
   }
 }
-
-@media (max-width: 450px) {
+@media (max-width: 440px) {
   .cardContainer {
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
-    gap: 15px; 
-    font-family: 'Roboto Regular';
-
+    gap: 10px; 
   }
 
   .card {
-    width: 110%;
-    font-family: 'Roboto Regular';
-
+    width: 90%; 
   }
+
   .price {
-
-    margin-left: 85%;
-
-    font-family: 'Roboto Regular';
-
+    margin-left: auto; 
+    text-align: left; 
   }
 }
+
